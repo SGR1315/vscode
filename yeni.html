@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Örnek 1</title>
+    <link rel="stylesheet" href="ödev1.css">
+    <style>
+        body{
+    height: 50vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 150px 200px 200px 100px 100px  ;
+}
+div:nth-child(1){
+    background-color: #D60056;
+}
+
+div:nth-child(2){
+    grid-column: 2/4;
+    background-color: #01AEA8;
+}
+
+div:nth-child(3){
+    background-color: #009B79;
+}
+
+div:nth-child(4){
+   grid-column: 5/6;
+   grid-row: 1/4;
+
+    background-color: #1D97DA;
+}
+
+div:nth-child(5){
+    grid-row: 2/4;
+    grid-column: 1/2;
+    background-color: #EB6702;
+}
+
+div:nth-child(6){
+    grid-row: 2/4;
+    grid-column: 2/5;
+    background-color: #FF8B62;
+}
+    </style>
+</head>
+<body>
+    <div>pembe</div>
+    <div>aqua</div>
+    <div>yeşil</div>
+    <div>mavi</div>
+    <div>turuncu</div>
+    <div>pembe</div>
+
+    
+</body>
+</html>
