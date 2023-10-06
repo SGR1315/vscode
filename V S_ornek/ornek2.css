@@ -1,0 +1,66 @@
+body{
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(6/1fr) ;
+    grid-template-rows: repeat(4/1fr);
+    grid-template-areas:
+    "header header header header header header"
+    "aside section main main main nav"
+    "footer article main main main nav"
+    "footer div1 div2 div3 div4 div4"
+}
+header{
+    background-color: aqua;
+    grid-area: header;
+}
+
+section{
+    background-color: brown;
+    grid-area: section;
+}
+
+footer{
+    background-color: chartreuse;
+    grid-area: footer;
+}
+
+main{
+    background-color: blueviolet;
+    grid-area: main;
+}
+
+nav{
+    background-color: chocolate;
+    grid-area: nav;
+}
+
+aside{
+    background-color: aquamarine;
+    grid-area: aside;
+}
+
+article{
+    background-color: black;
+    grid-area: article;
+}
+
+div:nth-child(8){
+    background-color: darkgreen;
+    grid-area:div1 ;
+}
+
+div:nth-child(9){
+    background-color: deeppink;
+    grid-area:div2 ;
+}
+
+div:nth-child(10){
+    background-color: green;
+    grid-area:div3 ;
+}
+
+div:nth-child(11){
+    background-color: gold;
+    grid-area:div4 ;
+}
