@@ -1,0 +1,26 @@
+body{
+    height: 100vh;
+    display: grid;
+    gap: 10px;
+    grid-template-rows:150px 1fr 250px;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer" ;
+}
+body *{
+    background-color: yellow;
+}
+header{
+
+    grid-area: header;
+}
+main{
+
+    grid-area: main;
+}
+footer{
+
+    grid-area: footer;
+}
