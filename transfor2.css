@@ -1,0 +1,42 @@
+
+  body{
+    height:100vh;
+    display:grid;
+    place-items:center;
+    box-sizing:border-box;
+    background-color: yellow;
+    
+  }
+  div {
+    width: 100px;
+    height: 100px;
+    background:#D86F45;
+    transform: rotate(45deg);
+    background:#5F3829;
+    position:relative;
+    
+    
+    
+    
+  }
+  div:before{
+    content:" ";
+    display:block;
+    background:#D86F45;
+    width:500px;
+    height:100px; 
+    position:absolute;
+    top:100%;
+    left:-210%;
+    box-shadow:10px -200px #D86F45;
+    
+    
+      
+    
+    
+    
+    
+    
+    
+ 
+  }
