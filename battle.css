@@ -1,0 +1,33 @@
+
+body{
+    position: relative;
+    height: 200px;
+    display: grid;
+    place-items: center;   
+    box-sizing: border-box;
+    background-color:#4F77FF;
+    
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px; 
+   
+    background: white;
+}
+div:before{
+    
+    content:" ";
+    display:block;
+    position:absolute;
+    background:#284ED0;
+    background-color:rgba(40, 78, 208,0.8);
+    width:380px;
+    height:200px;   
+    top:5%;   
+    left:-100;
+    border-top-left-radius:500px;
+    border-top-right-radius:500px;
+}
