@@ -1,0 +1,97 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color:powderblue;
+
+}
+header{
+    
+    position: absolute;
+    width: 20vw;
+    height: 55vh;
+    background-color:white;
+    border-radius: 25px;
+    top: 160px ;
+}
+div{
+    position: absolute;
+    top: 30%;
+    left:48%;
+}
+button{
+    position: absolute;
+    top:70%;
+    
+}
+.button1{
+    position: absolute;
+    top:100%;
+    width: 30px;
+    height: 30px;
+    background-color: powderblue;
+}
+.button2{
+    position: absolute;
+    top:100%;
+    width: 30px;
+    height: 30px;
+    left: 80px;
+    background-color: powderblue;
+}
+.button3{
+    position: absolute;
+    top:100%;
+    width: 30px;
+    height: 30px;
+    left: 40px;
+    
+}
+h4{
+    position: absolute;
+    top:150px;
+    left: -100px;
+
+}
+
+h5{
+    position: absolute;
+    top:155px;
+    left: 140px;
+}
+.Total{
+    position: absolute;
+    top:190px;
+    left:-100px ;
+}
+.Total2{
+    position: absolute;
+    top:230px;
+    left:-100px ;
+}
+.Sayi{
+    position: absolute;
+    top:190px;
+    left: 140px;
+}
+.Sayi2{
+    position: absolute;
+    top:230px;
+    left: 140px;
+}
+a{
+    position: absolute;
+    top:280px;
+    left: -100px;
+}
+.buttonson{
+    top:330px;
+    left: -100px;
+    
+}
+    
+
+
+
