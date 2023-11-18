@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: powderblue;
+
+}
+header{
+    position: absolute;
+    width: 16vw;
+    height: 35vh;
+    background-color: white;
+    border-radius: 20px;
+    left: 450px;
+    top:50px;
+    
+}
+ul{
+    position: absolute;
+    top:0%;
+    left: 240px;
+
+}
+button{
+    border: solid;
+}
+div{
+    content:" ";
+    position: absolute;
+    width: 16vw;
+    height: 40vh;
+    background-color: white;
+    border-radius: 20px;
+    left: 880px;
+    top:200px;
+}
+h4{
+    position: absolute;
+    top:0%;
+    left: 90%;
+}
