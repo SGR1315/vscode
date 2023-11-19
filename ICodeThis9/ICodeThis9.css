@@ -1,0 +1,35 @@
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+header{
+    width: 25vw;
+    height: 60vh;
+    background-color: palevioletred;
+    border-radius: 25px;
+    
+    
+}
+div{
+    content: " ";
+    position: absolute;
+    width: 25vw;
+    height: 60vh;
+    background-color: aqua;
+    border-radius: 25px;
+    top: 1%;
+    left: 1000px;
+}
+footer{
+        content: " ";
+        position: absolute;
+        width: 25vw;
+        height: 60vh;
+        background-color: yellow;
+        border-radius: 25px;
+        top:1%;
+        left: 100px;
+}
