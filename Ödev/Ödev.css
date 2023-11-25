@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 90vh;
+}
+span{
+    display: flex;
+    align-items: flex-end;
+    gap: 25px;
+    justify-content: right;
+}
+h2{
+    position: absolute;
+    top:30%;
+    left: 150px;
+    color: yellow;
+
+}
