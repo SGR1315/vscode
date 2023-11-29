@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content:flex-start;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    padding:300px;
+    
+    gap: 20px;
+}
+h1,h2,h3,h4,h5,h6,li{
+    color: white;
+}
+.kutu1{
+    
+    background-color: rgb(56, 54, 54);
+    width: 17vw;
+    height: 50vh;
+    flex-direction: column;
+    
+    border-radius: 10px;
+    
+}
+.kutu2{
+    background-color: rgb(56, 54, 54);
+    width: 17vw;
+    height: 50vh;
+    border-radius: 10px;
+    
+    
+}
+.kutu3{
+    background-color: rgb(56, 54, 54);
+    width: 17vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+input{
+    width: 150px;
+    height: 50px;
+}
+button{
+   flex:0 0 10%;
+}
