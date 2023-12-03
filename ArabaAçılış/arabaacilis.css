@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(./images/Araba.jpg)no-repeat center/cover;   
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 0 0 10%;
+    padding: 50px;
+    font-size: 50px;
+    color: white;
+    
+   
+}
+.alan{
+    flex: 0 0 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.Süre1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    background-color: gray;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+
+.Süre1>h2,h4{
+    color: black;
+}
+h2{
+    font-size: 50px;
+}
+span>div{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+
+}
