@@ -1,0 +1,43 @@
+/* background: url(./images/Araba.jpg)no-repeat center/cover;*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+img{
+    height: 150px;
+    height: 150px;
+}
+main{
+    flex: 0 0 60%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    
+   
+}
+main > div{
+    flex: 0 0 20%;
+    background-color: antiquewhite;
+   display: flex;
+   
+   flex-direction: column;
+    
+
+}
+main>div>a{
+    text-decoration: none;
+    background-color:rgb(38, 38, 158);
+    color: white;
+}
+
