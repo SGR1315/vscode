@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+
+}
+footer{
+    gap: 50px ;
+    
+    background-color: gray;
+    flex: 0 0 80%;
+    height: 250px;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+footer > .a1{
+    
+}
+footer > .a1 > *{
+    margin:15px;
+}
+footer > .a2 > *{
+    margin:15px;
+}
+footer > .a3 > *{
+    margin:15px;
+}
+footer > .a4 > *{
+    margin:15px;
+}
+footer > .a2 > i{
+    font-size: 25px;
+    border: black solid 2px;
+}
+footer > .a4 > a{
+    text-decoration: none;
+    color: black;
+    border: black solid 2px;
+}
+footer > .a4 > a:hover{
+    color: white;
+}
+
